@@ -148,8 +148,11 @@ nav{
 #feature{
     padding: 50px 120px;
     background-color: #FFFFFF;
-    /* border: 1px solid red; */
+    border: 1px solid red;
+    
 }
+
+
 
 .feature-title{
     text-align: center;
@@ -176,7 +179,9 @@ nav{
     justify-content: center;
     gap: 24px;
     width: 93%;
+    align-items: center;
     max-width: 1600px;
+    margin: 0 auto;
     
 }
 
@@ -218,3 +223,65 @@ nav{
     max-width: 274px;
   
 }
+
+
+
+
+#solution{
+    padding: 120px;
+    border: 1px solid red;
+}
+
+.solution-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.solution-image{
+    width: 600px;
+    height: 600px;
+    border-radius: 12px;
+}
+
+
+.sol{
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500px;
+    margin-bottom: 16px;
+}
+.solution-content h2{
+    color: #001931;
+    font-size: 48px;
+    font-weight: 700px;
+    margin-bottom: 16px;
+}
+
+.solution-content p{
+     color: #627382;
+    font-size: 16px;
+    font-weight: 400px;
+    margin-bottom: 40px;
+}
+
+
+.solution-list{
+    list-style: none;
+}
+
+.solution-lis li{
+    display: flex;
+    align-items: center;
+    gap: 16;
+    margin-bottom: 16px;
+    font-size: 16px;
+    color: #001931;
+    font-weight: 500;
+}
+
+
+/* point space */
+
