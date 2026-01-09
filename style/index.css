@@ -11,7 +11,7 @@
   font-optical-sizing: auto;
 }
 
-.btn{
+.btn , .btn-green{
     background-color: #469165;
     color: #FFFFFF;
     font-weight: 600px;
@@ -22,8 +22,8 @@
     cursor: pointer;
     
 }
-.btn:hover{
-    color: #7cf7af;
+.btn:hover, .btn-green:hover{
+    background-color: #627382;
 }
 
 
@@ -77,3 +77,70 @@ nav{
 
 
 }
+
+.banner-content{
+    width: 93%;
+    max-width: 1600px;
+    margin: 115px 120px;
+    /* border: 1px solid rebeccapurple; */
+    
+    
+}
+
+
+.banner-content .color-green{
+    display: inline-block;
+    background-color: #FFFFFF;
+    padding: 8px 12px;
+    border: 1px solid #FFFFFF;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    color: #469165;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+
+.banner-content h1{
+    font-size: 64px;
+    font-weight: 770;
+    margin-bottom: 16px;
+}
+
+.color-white{
+    color: #FFFFFF;
+}
+.color-green-1{
+    color: #30B868;
+}
+
+.description{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 400px;
+    line-height: 2;
+    margin: 0 auto 32px;
+}
+
+.Start{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.see-btn{
+    background-color: transparent;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    border: 1px solid #FFFFFF;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.see-btn:hover{
+    background-color: #627382;
+}
+
