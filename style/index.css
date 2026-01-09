@@ -20,6 +20,9 @@
     padding: 12.5px 16px;
     border-radius: 4px;
     cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     
 }
 .btn:hover, .btn-green:hover{
@@ -272,10 +275,10 @@ nav{
     list-style: none;
 }
 
-.solution-lis li{
+.solution-list li{
     display: flex;
     align-items: center;
-    gap: 16;
+    gap: 16px;
     margin-bottom: 16px;
     font-size: 16px;
     color: #001931;
@@ -283,7 +286,7 @@ nav{
 }
 
 
-/* point space */
+
 
 #ready{
     
@@ -319,6 +322,9 @@ nav{
     border-radius: 4px;
     cursor: pointer;
     margin-bottom: 16px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
 
 }
 
