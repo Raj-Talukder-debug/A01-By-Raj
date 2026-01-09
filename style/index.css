@@ -82,7 +82,7 @@ nav{
     width: 93%;
     max-width: 1600px;
     margin: 115px 120px;
-    /* border: 1px solid rebeccapurple; */
+    
     
     
 }
@@ -331,4 +331,49 @@ nav{
     font-size: 16px;
     font-weight: 400px;
     margin-top: 16px;
+}
+
+#footer{
+    background-color: #001931;
+    padding: 120px 120px 30px 120px;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1600px;
+    margin: 0 auto 40px;
+}
+
+.footer-social{
+    text-align: right;
+}
+.footer-social p{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 500px;
+    margin-bottom: 10px;
+}
+
+.social-icon{
+    gap: 16px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.social-icon a{
+    color: #FFFFFF;
+}
+
+.social-icon a:hover{
+    color: #30B868;
+
+}
+.copyright{
+    text-align: center;
+    color: #FAFAFA;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
 }
