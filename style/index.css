@@ -144,3 +144,77 @@ nav{
     background-color: #627382;
 }
 
+
+#feature{
+    padding: 50px 120px;
+    background-color: #FFFFFF;
+    /* border: 1px solid red; */
+}
+
+.feature-title{
+    text-align: center;
+    /* margin-bottom: 44px; */
+}
+
+.feature-title h2{
+    font-size: 48px;
+    font-weight: 700;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.feature-title p{
+    font-size: 16px;
+    line-height: 2;
+    color: #627382;
+    margin-bottom: 70px;
+
+}
+
+.feature-card{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    width: 93%;
+    max-width: 1600px;
+    
+}
+
+.card-component{
+    flex: 1;
+    width: 400px;
+    height: 300px;
+    
+    padding: 24px;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+
+.icon-red{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-component h3{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600px;
+    color: #001931;
+}
+
+.card-component p{
+    font-size: 16px;
+    font-weight: 400px;
+    color: #627382;
+    max-width: 274px;
+  
+}
